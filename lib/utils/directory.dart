@@ -4,7 +4,7 @@ import 'dart:io';
 /// directory structures and file paths
 class DirectoryService {
   static final Map<String, String> _paths = {
-    'feature': replaceAsExpected(path: 'lib'),
+    'feature': replaceAsExpected(path: 'lib/core'),
     'example': replaceAsExpected(path: 'example'),
   };
 
